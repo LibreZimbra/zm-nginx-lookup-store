@@ -1,5 +1,5 @@
 <project name="zm-nginx-lookup-store" default="jar">
-  <import file="../zm-zcs/ant-global.xml" />
+  <import file="ant-global.xml" />
   <property name="ext.name" value="nginx-lookup"/>
   <property name="dist.lib.dir" location="${dist.dir}/lib"/>
   <property name="dist.lib.ext.dir" location="${dist.lib.dir}/ext"/>
